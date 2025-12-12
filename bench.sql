@@ -8,6 +8,7 @@ select  '1''+''1''a''a'  from dual;--
  
  
 select nvl2(null,20,30) from dual;
+select * from hr.employees;
 select nvl2(10,20,30) from dual;
 
 select commission_pct,nvl2(commission_pct,20,500) from hr.employees;
@@ -1067,5 +1068,6 @@ select round(sysdate,'day') from dual;
 select trunc(sysdate,'year') from dual;
 
 select trunc(sysdate,'month') from dual;
+
 
 select  trunc(sysdate,'day') from dual;
